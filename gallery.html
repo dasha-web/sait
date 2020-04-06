@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Галерея</title>
+        <meta charset="utf-8">
+        <link href="style/style.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Poiret+One&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lobster&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap&subset=cyrillic" rel="stylesheet">
+    </head>
+    <body>
+        <div class="line">      
+        
+            <a href="https://vk.com/dashabutuzova1" class="znachki"><img src="vk.png"class="pictures" onmouseover="guidance_img(this)" onmouseout="noguidance_img(this)" ></a>
+            <a href="https://www.instagram.com/bb.dasha.bb" class="znachki"><img src="instagram.png" class="pictures" onmouseover="guidance_img(this)" onmouseout="noguidance_img(this)" ></a>
+            <a href="https://steamcommunity.com/profiles/76561198297028326/" class="znachki"><img src="Steam.png" class="pictures" onmouseover="guidance_img(this)" onmouseout="noguidance_img(this)" ></a>
+        
+            <ul class ="firstline">
+                <li><a class="main"href="index.html">Главная</a></li>
+                <li><a class ="bio"  href="bio.html">Био</a></li>
+                <li><a class ="galery" href="gallery.html">Галерея</a></li>
+                <li><a class ="Regestratoin" href="Regestratoin.html"> Регистрация</a></li>
+                <li><a class="game" href="">Игра</a></li>
+            </ul>
+    </div> 
+    <script>
+        function guidance_img(element){
+            element.setAttribute("class", "guidance_img");
+        }
+        function noguidance_img(element){
+            element.setAttribute("class", "noguidance_img");
+        } 
+    </script>
+        <div class="wrapper">
+            <div class="photo"><h2 class="name-first-line">Фото</h2></div>
+            <div id="gallery">
+                <div class="gallery-line">
+                    <div class="image-box">
+                        <img class="min-image" id="1" src="images/картинка1.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="2" src="images/картинка2.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="3" src="images/картинка3.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="4" src="images/картинка4.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="5" src="images/картинка5.jpg">
+                    </div>
+                </div>
+                <div id="big-image-box"></div>
+                <div id="buttons">
+                    <button onclick="prev()" id="prev_pic"><----</button> <button onclick="next()" id="next_pic">----></button>
+                </div>
+                <div class="gallery-line">
+                    <div class="image-box">
+                        <img class="min-image" id="6" src="images/картинка6.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="7" src="images/картинка7.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="8" src="images/картинка8.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="9" src="images/картинка9.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="10" src="images/картинка10.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <script src="script/script.js"></script>
+    </body>
+</html>

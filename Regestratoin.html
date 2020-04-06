@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="html">
+<head>
+	<title>Регистрация</title>
+	<link href="Regestratoin.css" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Poiret+One&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Lobster&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap&subset=cyrillic" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="line">
+		
+			<a href="https://vk.com/dashabutuzova1" class="znachki"><img src="vk.png"class="pictures" onmouseover="guidance_img(this)" onmouseout="noguidance_img(this)" id="5"></a>
+			<a href="https://www.instagram.com/bb.dasha.bb" class="znachki"><img src="instagram.png" class="pictures" onmouseover="guidance_img(this)" onmouseout="noguidance_img(this)" id="6"></a>
+			<a href="https://steamcommunity.com/profiles/76561198297028326/" class="znachki"><img src="Steam.png" class="pictures" onmouseover="guidance_img(this)" onmouseout="noguidance_img(this)" id="7"></a>
+		
+			<ul class ="firstline">
+				<li><a class="main"href="index.html">Главная</a></li>
+				<li><a class ="bio"  href="bio.html">Био</a></li>
+				<li><a class ="galery" href="gallery.html">Галерея</a></li>
+				<li><a class ="Regestratoin" href="Regestratoin.html"> Регистрация</a></li>
+				<li><a class="game" href="">Игра</a></li>
+			</ul>
+	</div> 
+	<script>
+        function guidance_img(element){
+            element.setAttribute("class", "guidance_img");
+        }
+        function noguidance_img(element){
+            element.setAttribute("class", "noguidance_img");
+        } 
+    </script>
+    <div class="BODY">
+    	<div class="RegestratoinTable">
+    	
+    	<form method="POST" action="finishRegistration.php">
+    		<h2 class="NameBorder">Регистрация</h2>
+    		<input class="border" type="text" name="name" placeholder="Имя" ></br>
+    		<input class="border" type="text" name="login" placeholder="Логин" ></br>
+    		<input class="border" type="text" name="password" placeholder="Пароль"></br>
+    		<input class="border" type="text" name="verificationPassword" placeholder="Подтверждение пароля"></br>
+    		<input class="border" type="telephone" name="telephone" placeholder="Телефон"></br>
+    		<input class="border" type="submit" value="Зарегистрироваться">
+
+    		<div class="Link">
+    			<h1 class="link1"><a class="link" href="file:///C:/Users/Darya/Desktop/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82/SignIn.html">Войти</a></h1></br>
+    			
+    		</div>
+
+
+
+
+
+
+    	</form>
+    	</div>
+
+
+
+
+    </div>

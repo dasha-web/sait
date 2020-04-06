@@ -1,0 +1,135 @@
+.html{
+	width: 100%;
+	height:100%; 
+}
+a:hover{
+   color: #88FFE9;
+}
+.bio{
+	color:#88FFE9; 
+	font-size: 30pt;
+	text-decoration: none;
+	font-family: 'Nanum Myeongjo', serif;
+	font-family: 'Poiret One', cursive;
+	display: flex;
+	padding-left: 20px;
+}
+.line{
+	width: 100%;
+	height: 80px;	
+	border-bottom: 1px solid black;
+	display: flex;
+	list-style-type: none;
+}
+.znachki{
+	position: relative;left: 2%;
+	position: relative;top: 16%;
+	height: 45px;
+	width: 45px;
+	padding-left: 20px;
+}
+.guidance_img{
+    margin-left: 0px;
+    margin-right: 50px;
+    width: 60px;
+    background-size: 60px;
+    height: 60px;
+}
+.noguidance_img{
+    margin-left: 0px;
+    margin-right: 50px;
+    width: 40px;
+    background-size: 40px;
+}
+.pictures{
+ 	margin-left: 0px;
+ 	margin-right: 50px;
+ 	width: 40px;
+ 	background-size: 40px;
+}
+.main, .Regestratoin, .galery, .game{
+	font-size: 30pt;
+	color: black;
+	text-decoration: none;
+	font-family: 'Nanum Myeongjo', serif;
+	font-family: 'Poiret One', cursive;
+	display: flex;
+	padding-left: 20px;
+}
+.firstline{
+	position: relative;top: 15%;
+	margin:0%;
+	display: flex;
+	list-style-type: none;
+	width: 800px;
+	height: 62px;
+	position: relative;left: 40%;
+}
+.first-line-body{
+	display: flex;
+	list-style-type: none;
+	position: relative;left: 10%;
+}
+.BODY{
+	height: 100%;
+}
+.name-first-line{
+	font-size: 65pt;
+	font-family: 'Nanum Myeongjo', serif;
+	font-family: 'Poiret One', cursive;
+	background-color: white;
+	position: relative;left: 60%;
+	position: relative;top: 20%;
+	height: 120px;
+	padding: right: 10px;
+}
+.kartinka-first-line{
+	width: 865px;
+	height:493px;
+}
+.ul-qoute{
+	display: flex;
+	list-style-type: none;
+
+}
+.quote-1{
+	color:#88FFE9; 
+	font-size: 25pt;
+	text-shadow: black 0 0 4px;
+	position: absolute;top: 45%;
+	position: absolute;left: 4%
+}
+.quote-2{
+	color:#88FFE9; 
+	font-size: 25pt;
+	text-shadow: black 0 0 4px;
+	position: absolute;top: 20%;
+	position: absolute;left: 80%
+}
+.quote-3{
+	color:#88FFE9; 
+	font-size: 25pt;
+	text-shadow: black 0 0 4px;
+	position: absolute;top: 45%;
+	position: absolute;left: 80%
+}
+.second-line-body{
+	display: flex;
+	list-style-type: none;
+}
+.about-me-1{
+	font-size: 25pt;
+	font-family: 'Nanum Myeongjo', serif;
+	font-family: 'Poiret One', cursive;
+	margin-right: 50px;
+	position:absolute;left:20%;
+	position:absolute;top:67%;
+}
+.about-me-2{
+	font-size: 25pt;
+	font-family: 'Nanum Myeongjo', serif;
+	font-family: 'Poiret One', cursive;
+	margin-right: 50px;
+	position:absolute;left:60%;
+	position:absolute;top: 67%;
+}
